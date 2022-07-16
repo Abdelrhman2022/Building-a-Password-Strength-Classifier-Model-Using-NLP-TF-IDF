@@ -15,5 +15,19 @@ The commercial password strength algorithms I used are of Twitter, Microsoft and
 
 [Dataset Link](https://www.kaggle.com/datasets/bhavikbb/password-strength-classifier-dataset)
 
+# Classification Algorithms
+
+After testing a lot of Algorithms **XGBoost** is best one in this case which achive **97.15%** accuracy
+
+### Best Hyperparams
+
+```  
+{'colsample_bytree': 0.9415771855740308,
+ 'gamma': 4.83111946316023,
+ 'max_depth': 13.0,
+ 'min_child_weight': 6.0,
+ 'reg_alpha': 46.0,
+ 'reg_lambda': 0.11353995179446696}
+```
 
 
